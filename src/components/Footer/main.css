@@ -1,0 +1,11 @@
+.footer {
+    background-color: blueviolet;
+    height: 25vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer :nth-child(2) {
+    padding: 5rem 8rem;
+}

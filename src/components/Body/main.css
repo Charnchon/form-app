@@ -1,0 +1,19 @@
+.container {
+    margin: 0;
+    height: 50vh;
+    width: auto;
+    background-color: greenyellow;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+.container :nth-child(3) {
+    width: 100%;
+    display: flex;
+}
